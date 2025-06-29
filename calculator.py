@@ -6,10 +6,10 @@ st.title("Calculator-shujaat")
 st.write("---")
 
 # input 1
-num1 = st.number_input(label="Enter first number")
+num1 = st.number_input(label="Enter first number",min_value=1)
 
 # input 2
-num2 = st.number_input(label="Enter second number")
+num2 = st.number_input(label="Enter second number",min_value=1)
 
 st.write("Operation")
 
