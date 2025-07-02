@@ -2,7 +2,7 @@ import streamlit as st
 import emoji
 
 # Title of the app
-st.title("Calculator")
+st.title("Calculator SHUJAAT WAQAR")
 
 # Displaying calculator icon
 st.markdown(f"<h1 style='text-align: left;'>{emoji.emojize(':abacus:')}</h1>", unsafe_allow_html=True)
